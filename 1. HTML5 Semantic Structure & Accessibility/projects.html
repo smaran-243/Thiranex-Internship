@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects — Smaran</title>
+    <meta
+      name="description"
+      content="A selection of projects by Smaran, including accessible dashboards, mapping tools, and design-system work."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/projects.html" />
+    <meta name="author" content="Smaran" />
+    <meta name="theme-color" content="#1c2541" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Smaran — Portfolio" />
+    <meta property="og:title" content="Projects — Smaran" />
+    <meta
+      property="og:description"
+      content="Accessible dashboards, mapping tools, and design-system work."
+    />
+    <meta property="og:url" content="https://example.com/projects.html" />
+    <meta property="og:image" content="https://example.com/favicon.svg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Projects — Smaran" />
+    <meta
+      name="twitter:description"
+      content="A selection of accessible web projects."
+    />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Smaran, home"
+          >S<span class="logo-dot">.</span></a
+        >
+        <nav class="primary-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span class="sr-only">Menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="section" aria-labelledby="projects-heading">
+        <div class="container">
+          <p class="eyebrow">Projects</p>
+          <h1 id="projects-heading">Things I've built</h1>
+          <p>
+            A few projects that show how I think about structure, performance,
+            and access — not just visual polish.
+          </p>
+        </div>
+      </section>
+
+      <section class="section section--tight" aria-label="Project list">
+        <div class="container">
+          <div class="grid">
+            <article
+              class="card"
+              id="trailhead"
+              aria-labelledby="trailhead-heading"
+            >
+              <figure class="card-figure">
+                <img
+                  src="https://placehold.co/480x270/28685f/eef1f6?text=Trailhead"
+                  width="480"
+                  height="270"
+                  alt="Map-style screen of the Trailhead hiking log app showing a saved route and elevation chart."
+                />
+                <figcaption class="sr-only">
+                  Trailhead route screen with elevation chart
+                </figcaption>
+              </figure>
+              <h2 id="trailhead-heading">Trailhead — hiking log app</h2>
+              <p>
+                An offline-capable route tracker. The map itself is
+                mouse-driven, but every feature — searching trails, saving a
+                route, reviewing elevation data — has a fully keyboard-operable
+                equivalent with announced state changes.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>React</li>
+                <li>Leaflet</li>
+                <li>IndexedDB</li>
+                <li>ARIA live regions</li>
+              </ul>
+              <p class="card-link-list">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View source for Trailhead
+                  <span class="sr-only">(opens in new tab)</span></a
+                >
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live demo of Trailhead
+                  <span class="sr-only">(opens in new tab)</span></a
+                >
+              </p>
+            </article>
+
+            <article
+              class="card"
+              id="ledgerly"
+              aria-labelledby="ledgerly-heading"
+            >
+              <figure class="card-figure">
+                <img
+                  src="https://placehold.co/480x270/c9852f/1c2541?text=Ledgerly"
+                  width="480"
+                  height="270"
+                  alt="Budgeting dashboard for Ledgerly showing monthly spending categories in a data table."
+                />
+                <figcaption class="sr-only">
+                  Ledgerly dashboard data table
+                </figcaption>
+              </figure>
+              <h2 id="ledgerly-heading">Ledgerly — budgeting dashboard</h2>
+              <p>
+                Charts in this dashboard are backed by real data tables, not
+                canvas-only graphics, so screen-reader users get the same
+                numbers sighted users see in the visualization. Tested with NVDA
+                and VoiceOver, not just automated scanners.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Vue</li>
+                <li>D3</li>
+                <li>PostgreSQL</li>
+                <li>WCAG 2.2 AA</li>
+              </ul>
+              <p class="card-link-list">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View source for Ledgerly
+                  <span class="sr-only">(opens in new tab)</span></a
+                >
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >Live demo of Ledgerly
+                  <span class="sr-only">(opens in new tab)</span></a
+                >
+              </p>
+            </article>
+
+            <article
+              class="card"
+              id="signpost"
+              aria-labelledby="signpost-heading"
+            >
+              <figure class="card-figure">
+                <img
+                  src="https://placehold.co/480x270/1c2541/c9852f?text=Signpost"
+                  width="480"
+                  height="270"
+                  alt="Component library page for the Signpost design system showing a button and form-field gallery."
+                />
+                <figcaption class="sr-only">
+                  Signpost design system component gallery
+                </figcaption>
+              </figure>
+              <h2 id="signpost-heading">Signpost — accessible design system</h2>
+              <p>
+                A component library built so accessibility is the default, not
+                an add-on: every input ships with a label, every interactive
+                icon ships with a name, and focus order is part of the component
+                contract.
+              </p>
+              <ul class="tag-list" aria-label="Technologies used">
+                <li>Web Components</li>
+                <li>Storybook</li>
+                <li>axe-core</li>
+              </ul>
+              <p class="card-link-list">
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View source for Signpost
+                  <span class="sr-only">(opens in new tab)</span></a
+                >
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Smaran. Built with semantic HTML5.</p>
+        <ul class="social-list" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

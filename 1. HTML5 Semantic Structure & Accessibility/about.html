@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About Smaran — B.Tech Student</title>
+    <meta
+      name="description"
+      content="Background, education, and skills of Smaran, a 3rd year B.Tech student at Anurag University studying accessible web development."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/about.html" />
+    <meta name="author" content="Smaran" />
+    <meta name="theme-color" content="#1c2541" />
+
+    <meta property="og:type" content="profile" />
+    <meta property="og:site_name" content="Smaran — Portfolio" />
+    <meta property="og:title" content="About Smaran" />
+    <meta
+      property="og:description"
+      content="Background, education, and skills of a third-year B.Tech student focused on accessible web development."
+    />
+    <meta property="og:url" content="https://example.com/about.html" />
+    <meta property="og:image" content="https://example.com/favicon.svg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="About Smaran" />
+    <meta
+      name="twitter:description"
+      content="Background, education, and skills of a student building accessible web experiences."
+    />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Smaran, home"
+          >S<span class="logo-dot">.</span></a
+        >
+        <nav class="primary-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span class="sr-only">Menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" aria-current="page">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="section" aria-labelledby="about-heading">
+        <div class="container">
+          <p class="eyebrow">About</p>
+          <h1 id="about-heading">The person behind the code</h1>
+
+          <div class="profile-grid" style="margin-top: var(--space-4)">
+            <figure>
+              <img
+                src="https://placehold.co/220x220/1c2541/eef1f6?text=AR"
+                width="220"
+                height="220"
+                alt="Portrait placeholder for Smaran — replace with a real photo."
+              />
+            </figure>
+            <div>
+              <p>
+                I'm a third-year B.Tech student at Anurag University focused on
+                computer science and accessible web development. I enjoy shaping
+                semantic HTML structures and thoughtful interactive experiences
+                that work well for keyboard and screen-reader users.
+              </p>
+              <p>
+                Alongside my coursework, I build portfolio projects that
+                reinforce WCAG-friendly patterns and modern HTML5 best
+                practices. I believe the best accessibility work is invisible —
+                it just feels like the site works for everyone.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--tight"
+        aria-labelledby="experience-heading"
+      >
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Education</p>
+            <h2 id="experience-heading">Academic timeline</h2>
+          </div>
+
+          <ol class="timeline">
+            <li>
+              <article aria-labelledby="job-1">
+                <time datetime="2023">2023 — Present</time>
+                <h3 id="job-1">
+                  B.Tech in Computer Science, Anurag University
+                </h3>
+                <p>
+                  Currently in third year, building practical front-end projects
+                  while studying web standards, accessibility, and software
+                  engineering principles.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article aria-labelledby="job-2">
+                <time datetime="2022">2022 — 2023</time>
+                <h3 id="job-2">Foundational web and programming coursework</h3>
+                <p>
+                  Learned HTML5, CSS, JavaScript, and core computing
+                  fundamentals through university labs and self-driven portfolio
+                  projects.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article aria-labelledby="job-3">
+                <time datetime="2021">2021 — 2022</time>
+                <h3 id="job-3">First-year engineering fundamentals</h3>
+                <p>
+                  Completed introductory engineering and mathematics courses
+                  while exploring how semantic structure and accessibility shape
+                  real digital products.
+                </p>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section section--tight" aria-labelledby="skills-heading">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Skills</p>
+            <h2 id="skills-heading">Tools I reach for</h2>
+          </div>
+          <dl class="skill-grid">
+            <div>
+              <dt>HTML &amp; CSS</dt>
+              <dd>Semantic markup, modern layout, design systems</dd>
+            </div>
+            <div>
+              <dt>Accessibility</dt>
+              <dd>WCAG 2.2, ARIA, screen-reader and keyboard testing</dd>
+            </div>
+            <div>
+              <dt>JavaScript</dt>
+              <dd>Progressive enhancement, vanilla JS, React</dd>
+            </div>
+            <div>
+              <dt>Tooling</dt>
+              <dd>Git, Lighthouse, axe DevTools, automated testing</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Smaran. Built with semantic HTML5.</p>
+        <ul class="social-list" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

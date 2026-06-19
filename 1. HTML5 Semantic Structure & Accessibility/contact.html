@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Smaran</title>
+    <meta
+      name="description"
+      content="Get in touch with Smaran about internships, collaborations, or accessible web development projects."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/contact.html" />
+    <meta name="author" content="Smaran" />
+    <meta name="theme-color" content="#1c2541" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Smaran — Portfolio" />
+    <meta property="og:title" content="Contact Smaran" />
+    <meta
+      property="og:description"
+      content="Get in touch about roles, freelance projects, or accessibility consulting."
+    />
+    <meta property="og:url" content="https://example.com/contact.html" />
+    <meta property="og:image" content="https://example.com/favicon.svg" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Contact Smaran" />
+    <meta
+      name="twitter:description"
+      content="Get in touch about roles, freelance projects, or accessibility consulting."
+    />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Smaran, home"
+          >S<span class="logo-dot">.</span></a
+        >
+        <nav class="primary-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span class="sr-only">Menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="section" aria-labelledby="contact-heading">
+        <div class="container">
+          <p class="eyebrow">Contact</p>
+          <h1 id="contact-heading">Let's talk</h1>
+          <p>
+            Use the form below, or reach out directly using the details to the
+            side. I read every message myself and usually reply within two
+            business days.
+          </p>
+
+          <div class="contact-grid">
+            <div class="form-shell">
+              <h2 class="sr-only">Contact form</h2>
+              <p id="form-instructions" class="hint">
+                Fields marked
+                <span class="required-flag" aria-hidden="true">*</span
+                ><span class="sr-only"
+                  >required fields are marked with an asterisk</span
+                >
+                are required.
+              </p>
+
+              <div
+                id="formStatus"
+                class="form-status"
+                role="alert"
+                aria-live="assertive"
+                hidden
+              ></div>
+
+              <form
+                id="contactForm"
+                novalidate
+                aria-describedby="form-instructions"
+              >
+                <div class="form-row">
+                  <label for="name"
+                    >Full name
+                    <span class="required-flag" aria-hidden="true"
+                      >*</span
+                    ></label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    required
+                    aria-required="true"
+                    aria-describedby="name-error"
+                  />
+                  <p
+                    id="name-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <div class="form-row">
+                  <label for="email"
+                    >Email address
+                    <span class="required-flag" aria-hidden="true"
+                      >*</span
+                    ></label
+                  >
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    required
+                    aria-required="true"
+                    aria-describedby="email-hint email-error"
+                  />
+                  <p id="email-hint" class="hint">
+                    I'll only use this to reply to your message.
+                  </p>
+                  <p
+                    id="email-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <div class="form-row">
+                  <label for="subject"
+                    >What's this about?
+                    <span class="required-flag" aria-hidden="true"
+                      >*</span
+                    ></label
+                  >
+                  <select
+                    id="subject"
+                    name="subject"
+                    required
+                    aria-required="true"
+                    aria-describedby="subject-error"
+                  >
+                    <option value="">Choose a topic</option>
+                    <option value="role">A job opportunity</option>
+                    <option value="freelance">Freelance project</option>
+                    <option value="speaking">Speaking or writing</option>
+                    <option value="other">Something else</option>
+                  </select>
+                  <p
+                    id="subject-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <fieldset>
+                  <legend>Preferred way to hear back</legend>
+                  <div class="radio-row">
+                    <input
+                      type="radio"
+                      id="contact-email"
+                      name="contactMethod"
+                      value="email"
+                      checked
+                    />
+                    <label for="contact-email">Email</label>
+                  </div>
+                  <div class="radio-row">
+                    <input
+                      type="radio"
+                      id="contact-phone"
+                      name="contactMethod"
+                      value="phone"
+                    />
+                    <label for="contact-phone">Phone call</label>
+                  </div>
+                  <div class="radio-row">
+                    <input
+                      type="radio"
+                      id="contact-either"
+                      name="contactMethod"
+                      value="either"
+                    />
+                    <label for="contact-either">Either is fine</label>
+                  </div>
+                </fieldset>
+
+                <div class="form-row">
+                  <label for="message"
+                    >Message
+                    <span class="required-flag" aria-hidden="true"
+                      >*</span
+                    ></label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    required
+                    aria-required="true"
+                    aria-describedby="message-hint message-error"
+                  ></textarea>
+                  <p id="message-hint" class="hint">
+                    A few sentences is plenty — share what you have in mind.
+                  </p>
+                  <p
+                    id="message-error"
+                    class="error-message"
+                    aria-live="polite"
+                  ></p>
+                </div>
+
+                <button type="submit" class="btn btn--primary">
+                  Send message
+                </button>
+              </form>
+            </div>
+
+            <aside aria-labelledby="other-ways-heading">
+              <div class="card">
+                <h2 id="other-ways-heading" class="aside-heading">
+                  Other ways to reach me
+                </h2>
+                <address>
+                  Email:<br />
+                  <a href="mailto:hello@example.com">hello@example.com</a
+                  ><br /><br />
+                  Phone:<br />
+                  <a href="tel:+15555550123">+1 (555) 555-0123</a><br /><br />
+                  Location:<br />
+                  Remote · GMT−5
+                </address>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Smaran. Built with semantic HTML5.</p>
+        <ul class="social-list" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

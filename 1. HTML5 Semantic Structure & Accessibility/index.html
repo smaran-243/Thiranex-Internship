@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Smaran — B.Tech Student Portfolio</title>
+    <meta
+      name="description"
+      content="Smaran is a third-year B.Tech student at Anurag University building accessible, semantic websites. Explore projects, background, and ways to connect."
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://example.com/index.html" />
+    <meta name="author" content="Smaran" />
+    <meta name="theme-color" content="#1c2541" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Smaran — Portfolio" />
+    <meta property="og:title" content="Smaran — B.Tech Student Portfolio" />
+    <meta
+      property="og:description"
+      content="Accessible, semantic web experiences built with care. See projects, background, and ways to connect."
+    />
+    <meta property="og:url" content="https://example.com/index.html" />
+    <meta property="og:image" content="https://example.com/favicon.svg" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Smaran — B.Tech Student Portfolio" />
+    <meta
+      name="twitter:description"
+      content="Accessible, semantic web experiences built with care."
+    />
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&amp;family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Smaran",
+        "jobTitle": "B.Tech Student",
+        "url": "https://example.com/index.html",
+        "sameAs": ["https://github.com/", "https://www.linkedin.com/"]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="index.html" class="logo" aria-label="Smaran, home"
+          >S<span class="logo-dot">.</span></a
+        >
+        <nav class="primary-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="primary-menu"
+          >
+            <span class="sr-only">Menu</span>
+            <span class="hamburger" aria-hidden="true"></span>
+          </button>
+          <ul id="primary-menu" class="nav-list">
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+          <span class="hero-stamp">Field notes · v1.0</span>
+          <div class="hero-grid">
+            <div>
+              <p class="eyebrow">B.Tech student</p>
+              <h1 id="hero-heading">
+                I build accessible, semantic websites grounded in modern HTML5
+                structure.
+              </h1>
+              <p>
+                I'm Smaran, a third-year B.Tech student at Anurag University. I
+                focus on web development that works for keyboard and
+                screen-reader users, using semantic HTML and WCAG-friendly
+                patterns throughout.
+              </p>
+              <div class="btn-row">
+                <a class="btn btn--primary" href="projects.html"
+                  >View projects</a
+                >
+                <a class="btn btn--accent" href="contact.html">Get in touch</a>
+              </div>
+            </div>
+            <div class="hero-card" aria-hidden="true">
+              <span class="line"
+                ><span class="key">role</span>:
+                <span class="val">"student"</span></span
+              >
+              <span class="line"
+                ><span class="key">focus</span>:
+                <span class="val">"accessible web experiences"</span></span
+              >
+              <span class="line"
+                ><span class="key">institution</span>:
+                <span class="val">"Anurag University"</span></span
+              >
+              <span class="line"
+                ><span class="key">status</span>:
+                <span class="val">"B.Tech 3rd year"</span></span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="services-heading">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">What I do</p>
+            <h2 id="services-heading">Three things I focus on</h2>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <h3>Accessible front-ends</h3>
+              <p>
+                Semantic markup, ARIA only where native HTML falls short, and
+                interfaces that hold up under keyboard and screen-reader use.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Performance-minded builds</h3>
+              <p>
+                Lean markup and CSS, considered asset loading, and pages that
+                stay fast as content grows.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Maintainable systems</h3>
+              <p>
+                Clear structure and naming so the next person — often future me
+                — can pick up the code with confidence.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section section--tight"
+        aria-labelledby="featured-heading"
+      >
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Selected work</p>
+            <h2 id="featured-heading">A couple of recent projects</h2>
+          </div>
+          <div class="grid">
+            <article class="card">
+              <h3>Trailhead — hiking log app</h3>
+              <p>
+                A route-tracking app with offline support and a fully
+                keyboard-operable map interface.
+              </p>
+              <p><a href="projects.html#trailhead">Read the case study →</a></p>
+            </article>
+            <article class="card">
+              <h3>Ledgerly — budgeting dashboard</h3>
+              <p>
+                An accessible data dashboard built around real screen-reader
+                testing, not just automated audits.
+              </p>
+              <p><a href="projects.html#ledgerly">Read the case study →</a></p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--tight" aria-labelledby="cta-heading">
+        <div class="container">
+          <div class="card cta-card">
+            <h2 id="cta-heading">Have a project in mind?</h2>
+            <p style="margin-inline: auto">
+              I'm currently open to new roles and freelance collaborations.
+            </p>
+            <div class="btn-row">
+              <a class="btn btn--primary" href="contact.html"
+                >Start a conversation</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>© 2026 Smaran. Built with semantic HTML5.</p>
+        <ul class="social-list" aria-label="Social links">
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span class="sr-only">(opens in new tab)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
