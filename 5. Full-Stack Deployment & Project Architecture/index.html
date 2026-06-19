@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Smaran - Web Development Intern at Thiranex" />
+    <meta
+      name="description"
+      content="Smaran DevHub is a modern developer productivity dashboard for tasks, weather, DSA tracking, projects, and portfolio highlights."
+    />
+    <meta
+      name="keywords"
+      content="developer dashboard, task manager, weather dashboard, DSA tracker, portfolio, Smaran, Thiranex"
+    />
+    <meta name="theme-color" content="#0a1321" />
+    <title>Smaran DevHub – Developer Productivity Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar" role="banner">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">SD</div>
+          <div>
+            <p class="eyebrow">Smaran DevHub</p>
+            <h1>Developer Productivity Dashboard</h1>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button
+            id="themeToggle"
+            class="icon-button"
+            aria-label="Toggle dark and light theme"
+          >
+            <span class="theme-icon" aria-hidden="true">🌗</span>
+            <span class="button-text">Theme</span>
+          </button>
+          <nav aria-label="Primary navigation" class="primary-nav">
+            <a href="#dashboard">Dashboard</a>
+            <a href="#tasks">Tasks</a>
+            <a href="#weather">Weather</a>
+            <a href="#projects">Projects</a>
+          </nav>
+        </div>
+      </header>
+
+      <main class="layout-grid">
+        <aside class="sidebar" aria-label="Application sections">
+          <div class="profile-card">
+            <p class="eyebrow">Smaran</p>
+            <h2>Web Dev Intern</h2>
+            <p>Anurag University, B.Tech CSE 3rd Year</p>
+          </div>
+
+          <nav class="sidebar-nav" aria-label="Dashboard sections">
+            <a href="#dashboard" class="active">Dashboard</a>
+            <a href="#about">About Me</a>
+            <a href="#tasks">Task Manager</a>
+            <a href="#weather">Weather</a>
+            <a href="#dsa">DSA Tracker</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </aside>
+
+        <section
+          id="dashboard"
+          class="panel active"
+          aria-labelledby="dashboardTitle"
+        >
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Welcome back, Smaran</p>
+              <h2 id="dashboardTitle">Productivity at a glance</h2>
+            </div>
+            <div class="status-pill">Internship Mode</div>
+          </div>
+
+          <div class="card grid-2">
+            <article
+              class="welcome-card glass-card"
+              aria-labelledby="welcomeHeading"
+            >
+              <h3 id="welcomeHeading">Today&apos;s focus</h3>
+              <p>
+                Keep momentum high with task progress, DSA readiness, and live
+                insights tailored for your web development journey.
+              </p>
+              <div class="highlight-list">
+                <span>Portfolio polish</span>
+                <span>Weather integration</span>
+                <span>DSA topic mastery</span>
+              </div>
+            </article>
+
+            <article
+              class="stats-card glass-card"
+              aria-labelledby="statsHeading"
+            >
+              <h3 id="statsHeading">Current snapshot</h3>
+              <div class="metric-grid">
+                <div>
+                  <p class="metric-label">Tasks</p>
+                  <strong id="tasksTotal">0</strong>
+                </div>
+                <div>
+                  <p class="metric-label">Completed</p>
+                  <strong id="tasksCompleted">0</strong>
+                </div>
+                <div>
+                  <p class="metric-label">DSA topics</p>
+                  <strong>5</strong>
+                </div>
+                <div>
+                  <p class="metric-label">Projects live</p>
+                  <strong>2</strong>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <div class="card grid-3 stats-row">
+            <article
+              class="small-card glass-card"
+              aria-label="Live date and time"
+            >
+              <p>Date & Time</p>
+              <strong id="currentTime">Loading...</strong>
+            </article>
+            <article
+              class="small-card glass-card"
+              aria-label="Internship progress overview"
+            >
+              <p>Internship progress</p>
+              <div class="progress-bar" aria-hidden="true">
+                <span style="width: 78%"></span>
+              </div>
+              <p class="progress-text">78% completed for this milestone</p>
+            </article>
+            <article
+              class="small-card glass-card"
+              aria-label="Developer efficiency index"
+            >
+              <p>Efficiency index</p>
+              <strong>92%</strong>
+            </article>
+          </div>
+        </section>
+
+        <section id="about" class="panel" aria-labelledby="aboutTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">About Me</p>
+              <h2 id="aboutTitle">Full-stack focus with a developer mindset</h2>
+            </div>
+          </div>
+
+          <div class="card bio-card glass-card">
+            <div>
+              <p>
+                Hi, I&apos;m <strong>Smaran</strong>, a third-year B.Tech CSE
+                student at <strong>Anurag University</strong> and a passionate
+                web development intern at <strong>Thiranex</strong>. I build
+                polished, user-centric web applications with clean architecture
+                and accessibility in mind.
+              </p>
+              <ul>
+                <li>
+                  Specializing in vanilla JavaScript, responsive design, and
+                  performance-focused UI.
+                </li>
+                <li>
+                  Building portfolio-ready projects that combine real-world
+                  functionality with polished presentation.
+                </li>
+                <li>
+                  Interested in automation, API-led features, and developer
+                  productivity tooling.
+                </li>
+              </ul>
+            </div>
+            <div class="bio-stats">
+              <div>
+                <p>Current term</p>
+                <strong>3rd Year</strong>
+              </div>
+              <div>
+                <p>Major</p>
+                <strong>Computer Science & Engineering</strong>
+              </div>
+              <div>
+                <p>Role</p>
+                <strong>Web Dev Intern</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="tasks" class="panel" aria-labelledby="tasksTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Task Manager</p>
+              <h2 id="tasksTitle">Organize your daily workload</h2>
+            </div>
+          </div>
+
+          <div class="card glass-card task-layout">
+            <form id="taskForm" class="task-form" aria-label="Add a new task">
+              <label for="taskInput">New task</label>
+              <input
+                id="taskInput"
+                name="taskInput"
+                type="text"
+                placeholder="Add a task for today"
+                required
+              />
+              <div class="form-actions">
+                <button type="submit" class="primary-button">Add task</button>
+                <div
+                  class="filter-group"
+                  role="radiogroup"
+                  aria-label="Task filters"
+                >
+                  <button
+                    type="button"
+                    class="filter-button active"
+                    data-filter="all"
+                  >
+                    All
+                  </button>
+                  <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="active"
+                  >
+                    Active
+                  </button>
+                  <button
+                    type="button"
+                    class="filter-button"
+                    data-filter="completed"
+                  >
+                    Completed
+                  </button>
+                </div>
+              </div>
+            </form>
+
+            <div id="taskList" class="task-list" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section id="weather" class="panel" aria-labelledby="weatherTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Weather Dashboard</p>
+              <h2 id="weatherTitle">City weather insights</h2>
+            </div>
+          </div>
+
+          <div class="card glass-card weather-layout">
+            <form
+              id="weatherForm"
+              class="weather-form"
+              aria-label="Search weather by city"
+            >
+              <label for="cityInput">Search city</label>
+              <input
+                id="cityInput"
+                name="cityInput"
+                type="text"
+                placeholder="Enter a city name"
+                required
+                autocomplete="off"
+              />
+              <button type="submit" class="primary-button">Search</button>
+            </form>
+
+            <div
+              id="weatherMessage"
+              class="weather-message"
+              aria-live="assertive"
+            ></div>
+            <div id="weatherResult" class="weather-result"></div>
+          </div>
+        </section>
+
+        <section id="dsa" class="panel" aria-labelledby="dsaTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">DSA Tracker</p>
+              <h2 id="dsaTitle">Track problem-solving progress</h2>
+            </div>
+          </div>
+
+          <div class="card grid-2 dsa-grid">
+            <article class="glass-card">
+              <h3>Arrays</h3>
+              <p>
+                Core array operations, sorting problems, two-pointer techniques,
+                and sliding window challenges.
+              </p>
+              <div class="progress-bar" aria-hidden="true">
+                <span style="width: 86%"></span>
+              </div>
+              <p class="progress-text">86% completed</p>
+            </article>
+            <article class="glass-card">
+              <h3>Binary Search</h3>
+              <p>
+                Search space reduction, sorted data challenges, and optimization
+                techniques for faster solutions.
+              </p>
+              <div class="progress-bar" aria-hidden="true">
+                <span style="width: 72%"></span>
+              </div>
+              <p class="progress-text">72% completed</p>
+            </article>
+            <article class="glass-card">
+              <h3>Trees</h3>
+              <p>
+                Traversal patterns, tree construction, recursion depth, and
+                practice with binary trees.
+              </p>
+              <div class="progress-bar" aria-hidden="true">
+                <span style="width: 64%"></span>
+              </div>
+              <p class="progress-text">64% completed</p>
+            </article>
+            <article class="glass-card">
+              <h3>Linked Lists</h3>
+              <p>
+                Singly, doubly, and cycle detection problems with pointer
+                management and in-place updates.
+              </p>
+              <div class="progress-bar" aria-hidden="true">
+                <span style="width: 78%"></span>
+              </div>
+              <p class="progress-text">78% completed</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="projects" class="panel" aria-labelledby="projectsTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Projects</p>
+              <h2 id="projectsTitle">Portfolio highlights</h2>
+            </div>
+          </div>
+
+          <div class="card project-grid">
+            <article class="project-card glass-card">
+              <h3>Flask Notes Application</h3>
+              <p>
+                A notes management app built with Flask, Python, and SQLite.
+                Includes authentication, CRUD operations, and responsive UI.
+              </p>
+              <p class="pill">Backend project</p>
+            </article>
+            <article class="project-card glass-card">
+              <h3>Portfolio Website</h3>
+              <p>
+                A modern portfolio site showcasing skills, projects, and
+                internship achievements with strong focus on accessibility.
+              </p>
+              <p class="pill">Frontend project</p>
+            </article>
+            <article class="project-card glass-card">
+              <h3>Future Projects</h3>
+              <p>
+                Upcoming builds include a developer tools dashboard, an
+                interview prep platform, and task automation utilities.
+              </p>
+              <p class="pill">Roadmap</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="panel" aria-labelledby="contactTitle">
+          <div class="section-header">
+            <div>
+              <p class="eyebrow">Contact</p>
+              <h2 id="contactTitle">Let&apos;s connect</h2>
+            </div>
+          </div>
+
+          <div class="card glass-card contact-layout">
+            <form
+              id="contactForm"
+              class="contact-form"
+              aria-label="Send a message to Smaran"
+            >
+              <label for="contactName">Name</label>
+              <input
+                id="contactName"
+                name="contactName"
+                type="text"
+                placeholder="Your name"
+                required
+              />
+
+              <label for="contactEmail">Email</label>
+              <input
+                id="contactEmail"
+                name="contactEmail"
+                type="email"
+                placeholder="you@example.com"
+                required
+              />
+
+              <label for="contactMessage">Message</label>
+              <textarea
+                id="contactMessage"
+                name="contactMessage"
+                rows="5"
+                placeholder="Describe your opportunity or feedback"
+                required
+              ></textarea>
+
+              <button type="submit" class="primary-button">Send message</button>
+              <p
+                id="contactFeedback"
+                class="form-feedback"
+                aria-live="polite"
+              ></p>
+            </form>
+
+            <div class="social-panel" aria-label="Social links">
+              <div>
+                <h3>Stay in touch</h3>
+                <p>
+                  Reach out for collaboration, internship updates, or project
+                  insights.
+                </p>
+              </div>
+              <ul class="social-list">
+                <li>
+                  <a
+                    href="https://github.com/smaran-dev"
+                    target="_blank"
+                    rel="noreferrer"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://linkedin.com/in/smaran-dev"
+                    target="_blank"
+                    rel="noreferrer"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li><a href="mailto:smaran@thiranex.com">Email</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
