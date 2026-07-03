@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "title": "Modern Velvet Sofa",
+    "category": "Living Room",
+    "price": 549.99,
+    "rating": 4.7,
+    "stock": 12,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Luxurious velvet sofa with deep cushioning and solid wood legs. Perfect centerpiece for any modern living room.",
+    "longDescription": "This Modern Velvet Sofa combines timeless elegance with everyday comfort. Upholstered in premium velvet fabric with high-density foam cushions, it offers a plush seating experience that lasts for years. The sturdy solid wood frame and tapered legs provide reliable support, while the clean-line silhouette fits seamlessly into contemporary and mid-century interiors alike. Available in a rich emerald green that adds a sophisticated pop of color to your space."
+  },
+  {
+    "id": 2,
+    "title": "Wooden Dining Table",
+    "category": "Kitchen",
+    "price": 429.99,
+    "rating": 4.5,
+    "stock": 8,
+    "image": "https://images.unsplash.com/photo-1487015307662-6ce6210680f1?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Solid acacia wood dining table with a natural finish. Seats six comfortably for family dinners.",
+    "longDescription": "Crafted from sustainably sourced acacia hardwood, this dining table brings warmth and character to your kitchen or dining area. The natural wood grain ensures each piece is uniquely beautiful, while the protective lacquer finish guards against spills and scratches. Generously sized at 72 inches long, it comfortably seats six guests. The robust trestle-style base provides exceptional stability and ample legroom for everyone at the table."
+  },
+  {
+    "id": 3,
+    "title": "Ceramic Table Lamp",
+    "category": "Bedroom",
+    "price": 59.99,
+    "rating": 4.3,
+    "stock": 35,
+    "image": "https://images.unsplash.com/photo-1580130281320-0ef0754f2bf7?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Handcrafted ceramic table lamp with a textured glaze finish. Casts a warm ambient glow.",
+    "longDescription": "Add a touch of artisan charm to your bedside or dresser with this handcrafted ceramic table lamp. The textured ivory glaze gives each lamp a one-of-a-kind look, while the linen drum shade softens the light into a warm, inviting ambiance. Standing 18 inches tall, it is the perfect height for nighttime reading. Compatible with standard E26 bulbs up to 60W, and the convenient in-line switch makes operation effortless."
+  },
+  {
+    "id": 4,
+    "title": "Ergonomic Office Chair",
+    "category": "Office",
+    "price": 349.99,
+    "rating": 4.8,
+    "stock": 15,
+    "image": "https://images.unsplash.com/photo-1688578735427-994ecdea3ea4?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Fully adjustable ergonomic chair with lumbar support and breathable mesh back. Built for all-day comfort.",
+    "longDescription": "Designed for professionals who spend long hours at their desk, this ergonomic office chair features a contoured mesh backrest that promotes airflow and reduces heat buildup. The adjustable lumbar support, seat height, armrests, and tilt tension let you customize the fit to your body. A heavy-duty nylon base with smooth-rolling casters ensures easy mobility on any floor surface. This chair is BIFMA certified and built to support up to 300 lbs with confidence."
+  },
+  {
+    "id": 5,
+    "title": "Memory Foam Mattress",
+    "category": "Bedroom",
+    "price": 699.99,
+    "rating": 4.9,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1647376036543-f9f543601a1d?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Premium queen-size memory foam mattress with cooling gel layer. Relieves pressure points for restful sleep.",
+    "longDescription": "Experience the difference of truly restorative sleep with this premium memory foam mattress. The top layer of cooling gel-infused foam draws heat away from your body, while the responsive memory foam beneath conforms to your curves and relieves pressure at the shoulders, hips, and lower back. A high-density base foam provides lasting support and prevents sagging over time. CertiPUR-US certified and delivered compressed in a box for easy setup in any bedroom."
+  },
+  {
+    "id": 6,
+    "title": "Stainless Steel Cookware Set",
+    "category": "Kitchen",
+    "price": 189.99,
+    "rating": 4.4,
+    "stock": 22,
+    "image": "https://images.unsplash.com/photo-1584990347193-6bebebfeaeee?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "10-piece stainless steel cookware set with tri-ply construction. Oven safe and dishwasher friendly.",
+    "longDescription": "Upgrade your kitchen with this professional-grade 10-piece cookware set. Each pan features tri-ply stainless steel construction with an aluminum core that distributes heat evenly and eliminates hot spots. The set includes two frying pans, two saucepans with lids, a stockpot with lid, and a sauté pan with lid. Riveted stainless steel handles stay cool on the stovetop, and every piece is oven safe up to 500°F and dishwasher friendly for easy cleanup."
+  },
+  {
+    "id": 7,
+    "title": "Floating Wall Shelf",
+    "category": "Living Room",
+    "price": 49.99,
+    "rating": 4.2,
+    "stock": 40,
+    "image": "https://images.unsplash.com/photo-1567083348161-9dfccc0d47d9?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Minimalist floating shelf with hidden bracket mounting. Great for displaying books and decor.",
+    "longDescription": "This sleek floating wall shelf gives you stylish storage without taking up floor space. The hidden bracket system creates a clean, seamless look as if the shelf is hovering on your wall. Made from engineered wood with a matte white finish, it blends effortlessly with any decor style. Each shelf holds up to 30 lbs and measures 36 inches wide by 8 inches deep, providing ample room for books, photo frames, small plants, or decorative objects."
+  },
+  {
+    "id": 8,
+    "title": "Bamboo Outdoor Lounge Chair",
+    "category": "Outdoor",
+    "price": 279.99,
+    "rating": 4.6,
+    "stock": 10,
+    "image": "https://images.unsplash.com/photo-1679984741176-36178ba98bec?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Weather-resistant bamboo lounge chair with cushioned seat. Ideal for patios and gardens.",
+    "longDescription": "Relax in style with this beautifully crafted bamboo lounge chair designed for outdoor living. The natural bamboo frame is treated with a weather-resistant sealant to withstand sun, rain, and humidity. A thick removable cushion in a neutral sand color provides plush comfort, and the zippered cover is machine washable for easy maintenance. The ergonomic recline angle and wide armrests make it the perfect spot to unwind on your patio, deck, or garden."
+  },
+  {
+    "id": 9,
+    "title": "Linen Throw Pillow Set",
+    "category": "Living Room",
+    "price": 39.99,
+    "rating": 4.1,
+    "stock": 50,
+    "image": "https://images.unsplash.com/photo-1629949009765-40fc74c9ec21?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Set of four linen throw pillows in earthy tones. Soft, durable, and machine washable.",
+    "longDescription": "Instantly refresh your sofa or bed with this set of four premium linen throw pillows. Each 18x18 inch pillow features a removable cover in a complementary earthy palette of sage, cream, terracotta, and charcoal. The natural linen fabric has a relaxed, slightly textured feel that adds warmth and depth to your decor. Filled with hypoallergenic polyester fiber for a full yet soft shape, these pillows hold up beautifully wash after wash."
+  },
+  {
+    "id": 10,
+    "title": "Glass Coffee Table",
+    "category": "Living Room",
+    "price": 299.99,
+    "rating": 4.5,
+    "stock": 6,
+    "image": "https://images.unsplash.com/photo-1542372147193-a7aca54189cd?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Tempered glass coffee table with brushed gold metal frame. Adds elegance to any living space.",
+    "longDescription": "Make a statement in your living room with this contemporary glass coffee table. The 10mm tempered glass top is both durable and easy to clean, offering a crystal-clear surface that makes your space feel open and airy. The brushed gold geometric metal frame adds a touch of glam without overwhelming the room. Measuring 48 inches long by 24 inches wide, it is perfectly proportioned for standard-size sofas. Anti-slip pads protect your flooring and keep the table securely in place."
+  },
+  {
+    "id": 11,
+    "title": "Oak Bookshelf",
+    "category": "Office",
+    "price": 249.99,
+    "rating": 4.6,
+    "stock": 14,
+    "image": "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Five-tier oak bookshelf with a ladder-style design. Sturdy and stylish for home offices.",
+    "longDescription": "Organize your books, files, and decor with this five-tier ladder-style bookshelf crafted from solid oak. The graduated shelf design creates visual interest while maximizing vertical storage in compact spaces. Each shelf is reinforced to hold up to 25 lbs, making it strong enough for heavy hardcovers and binders. The warm honey oak finish complements a range of interior styles from Scandinavian to traditional. Wall-mounting hardware is included for added safety and stability."
+  },
+  {
+    "id": 12,
+    "title": "Kitchen Island Cart",
+    "category": "Kitchen",
+    "price": 399.99,
+    "rating": 4.7,
+    "stock": 0,
+    "image": "https://images.unsplash.com/photo-1617228069096-4638a7ffc906?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Rolling kitchen island with butcher block top and cabinet storage. Adds workspace and organization.",
+    "longDescription": "This versatile kitchen island cart gives you extra counter space, storage, and mobility exactly where you need it. The genuine butcher block top provides a beautiful and functional food-prep surface, while the cabinet, drawer, and open shelves below keep cookware, utensils, and pantry items neatly organized. Heavy-duty locking casters let you roll the island into position and secure it in place. Finished in a clean white with a natural wood top, it suits both classic and modern kitchens."
+  },
+  {
+    "id": 13,
+    "title": "Standing Desk Converter",
+    "category": "Office",
+    "price": 199.99,
+    "rating": 4.3,
+    "stock": 20,
+    "image": "https://images.unsplash.com/photo-1622126647566-f0c834e4b78e?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Adjustable standing desk converter with gas spring lift. Fits on top of any existing desk.",
+    "longDescription": "Transform your current desk into a sit-stand workstation in seconds with this adjustable standing desk converter. The smooth gas spring mechanism lets you raise or lower the platform with one hand to any height between 4.5 and 20 inches. The spacious 32-inch wide top deck holds a monitor up to 27 inches, while the lower keyboard tray keeps your wrists at a comfortable angle. It assembles in under 10 minutes with no tools required and supports up to 35 lbs of equipment."
+  },
+  {
+    "id": 14,
+    "title": "Woven Area Rug",
+    "category": "Bedroom",
+    "price": 159.99,
+    "rating": 4.4,
+    "stock": 18,
+    "image": "https://images.unsplash.com/photo-1572123979839-3749e9973aba?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Hand-woven area rug in a neutral geometric pattern. Soft underfoot and easy to maintain.",
+    "longDescription": "Anchor your bedroom with this beautifully hand-woven area rug featuring a subtle geometric pattern in warm ivory and grey tones. Made from a durable blend of cotton and jute, it feels soft underfoot while standing up to everyday foot traffic. The low-profile weave sits flat under furniture and doors, and a non-slip latex backing keeps it securely in place on hard floors. Measuring 5x8 feet, it is sized to fit under a queen bed with generous borders on each side."
+  },
+  {
+    "id": 15,
+    "title": "LED Floor Lamp",
+    "category": "Office",
+    "price": 89.99,
+    "rating": 4.5,
+    "stock": 28,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Slim LED floor lamp with adjustable brightness and color temperature. Energy efficient and modern.",
+    "longDescription": "Illuminate your workspace or reading nook with this slim, modern LED floor lamp. It offers five brightness levels and three color temperature settings ranging from warm white to daylight, so you can tailor the light to any task or mood. The flexible gooseneck lets you direct the light precisely where you need it, and the weighted circular base keeps it stable on any surface. Consuming just 12W of power, it replaces a 100W incandescent bulb while lasting up to 50,000 hours."
+  },
+  {
+    "id": 16,
+    "title": "Garden Tool Organizer",
+    "category": "Outdoor",
+    "price": 69.99,
+    "rating": 3.9,
+    "stock": 30,
+    "image": "https://images.unsplash.com/photo-1621460248083-6271cc4437a8?auto=format&fit=crop&w=400&q=80",
+    "shortDescription": "Wall-mounted garden tool organizer with hooks and a shelf. Keeps your shed or garage tidy.",
+    "longDescription": "Keep your gardening tools organized and easily accessible with this wall-mounted organizer. Featuring eight adjustable double hooks, a top storage shelf, and a tool rack bar, it holds rakes, shovels, brooms, hoses, and smaller hand tools all in one place. Constructed from powder-coated steel, it resists rust and can be installed in garages, sheds, or even outdoors under a covered porch. The included mounting hardware makes installation straightforward on wood, concrete, or drywall surfaces."
+  }
+]
